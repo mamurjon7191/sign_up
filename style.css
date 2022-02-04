@@ -60,6 +60,9 @@ h1 {
   border-bottom: 2px solid #2e5bff;
   color: #2e384d;
 }
+.sign-nav .activ2 {
+  border-bottom: 2px solid #a99a77;
+}
 .form {
   display: flex;
   flex-direction: column;
@@ -77,7 +80,10 @@ select {
   font-size: 13px;
   margin: 0.3rem 0 1rem 0;
 }
-
+.container2 input,
+.container2 select {
+  background-color: #fff;
+}
 input::placeholder {
   font-size: 14px;
 }
