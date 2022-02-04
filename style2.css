@@ -27,11 +27,11 @@ html {
   background-color: white;
   padding: 4rem;
 }
-.sign_up5_form .close {
+.close {
   text-align: right;
   font-size: 2rem;
 }
-.sign_up5_form .close i {
+.close i {
   background-color: #e4e7f8a9;
   padding: 1rem 1.5rem;
   border-radius: 50%;
@@ -39,7 +39,7 @@ html {
 }
 form {
   width: 55%;
-  margin: 5rem auto;
+  margin: auto auto;
 }
 form .title5 {
   font-size: 3rem;
@@ -107,7 +107,7 @@ form .title5 {
   display: block;
 }
 .continue button {
-  background-color: blue;
+  background-color: #395af7;
   color: white;
   width: 100%;
   height: 4rem;
@@ -118,4 +118,71 @@ form .title5 {
   font-size: 1.6rem;
   margin-top: 1.5rem;
   text-align: center;
+}
+.sign_up6_img {
+  background-color: #395af7;
+  background-image: url(img/Personal\ Info.png);
+  padding: 4rem;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+}
+.sign_up6_img p {
+  color: rgb(255, 255, 255);
+  font-size: 3.6rem;
+}
+.sign_up7_img p {
+  color: rgb(255, 255, 255);
+  font-size: 3.6rem;
+}
+.sign_up7_img {
+  background-image: url(img/Card\ Base-7.png);
+  padding: 4rem;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: bottom;
+  height: 100vh;
+}
+.sign_up7_form {
+  display: flex;
+}
+.sign_up8_form {
+  display: flex;
+}
+.sign_up7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.continue7 {
+  width: 100%;
+  text-align: center;
+  margin-top: 1.5rem;
+  display: block;
+}
+.continue7 button {
+  background-color: #000000;
+  color: white;
+  width: 100%;
+  height: 4rem;
+  font-size: 1.8rem;
+  border: none;
+}
+.sign_up8_img p {
+  color: rgb(255, 255, 255);
+  font-size: 3.6rem;
+}
+.sign_up8_img {
+  background-image: url(img/Card\ Base-3.png);
+  padding: 4rem;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: bottom;
+  background-size: cover;
+  height: 100vh;
+}
+.vision2 {
+  background-image: linear-gradient(to bottom, #b4cddb, #ffffff);
+}
+.vision1 {
+  background-image: linear-gradient(to bottom, #96bac2be, #e0e8e8);
 }
