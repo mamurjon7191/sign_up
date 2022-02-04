@@ -26,7 +26,6 @@ html {
 .sign_up5_form {
   background-color: white;
   padding: 4rem;
-  display: flex;
 }
 .close {
   text-align: right;
@@ -137,12 +136,18 @@ form .title5 {
   font-size: 3.6rem;
 }
 .sign_up7_img {
-  background-color: #bcd3d8;
   background-image: url(img/Card\ Base-7.png);
   padding: 4rem;
   background-repeat: no-repeat;
   background-size: 90%;
   background-position: bottom;
+  height: 100vh;
+}
+.sign_up7_form {
+  display: flex;
+}
+.sign_up8_form {
+  display: flex;
 }
 .sign_up7 {
   display: grid;
@@ -161,4 +166,23 @@ form .title5 {
   height: 4rem;
   font-size: 1.8rem;
   border: none;
+}
+.sign_up8_img p {
+  color: rgb(255, 255, 255);
+  font-size: 3.6rem;
+}
+.sign_up8_img {
+  background-image: url(img/Card\ Base-3.png);
+  padding: 4rem;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: bottom;
+  background-size: cover;
+  height: 100vh;
+}
+.vision2 {
+  background-image: linear-gradient(to bottom, #b4cddb, #ffffff);
+}
+.vision1 {
+  background-image: linear-gradient(to bottom, #96bac2be, #e0e8e8);
 }
