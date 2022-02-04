@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  height: 60rem;
+}
+
+.sign-up-third-one {
+  width: 50%;
+  text-align: center;
+}
+
+.sing-up-third-title {
+  font-size: 3.2rem;
+  margin: 5rem 0;
+}
+
+.sign-up-third-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+}
+
+.sign-up-third-info p:nth-child(1) {
+  width: 20rem;
+  border-bottom: 2px solid #012a93;
+}
+
+.sign-up-third-info-1 {
+  width: 20rem;
+  border-bottom: 2px solid gray;
+}
+
+.input-ten {
+  border: 2px solid #f57522;
+}
+
+.sign-up-third-info-2 {
+  width: 20rem;
+  border-bottom: 2px solid #012a93;
+}
+
+.sign-up-third-one label {
+  font-size: 1.1rem;
+  opacity: 0.7;
+}
+
+.label1 {
+  padding: 2rem 43rem 2rem 1rem;
+}
+
+.label101 {
+  padding: 2rem 40rem 2rem 1rem;
+}
+
+.label2 {
+  padding: 2rem 42rem 2rem 1rem;
+}
+
+.label3 {
+  padding: 2rem 37rem 2rem 1rem;
+}
+
+.sign-up-third-one input {
+  padding: 1rem 2rem;
+  width: 70%;
+  margin: 2rem;
+  background-color: #f9faff;
+  border: none;
+}
+
+.sign-up-third-one input::placeholder {
+  color: black;
+}
+
+.sign-up-third-btn {
+  display: inline-block;
+  padding: 1.5rem 3.5rem;
+  text-decoration: none;
+  background-color: #012a93;
+  color: white;
+  width: 70%;
+  border-radius: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.sign-up-third-btn-11 {
+  background-color: #f57522;
+  margin: 2rem 0;
+}
+
+.sign-up-third-two {
+  width: 50%;
+  position: relative;
+  background-image: url(../img/Card\ Base-2.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.sign-up-third-two-img {
+  background-image: url(../img/Card\ Base-5.png);
+}
+
+.sign-up-third-two-img11 {
+  background-image: url(../img/Card\ Base-4.png);
+}
+
+.sign-up-third-two-img12 {
+  background-image: url(../img/Card\ Base-6.png);
+}
+
+.sign-up-third-footer {
+  margin: 4rem;
+  font-size: 1.2rem;
+}
+
+.sign-up-third-on-img {
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+  color: #012a93;
+  font-size: 2rem;
+}
+
+.sign-up-third-icon {
+  position: absolute;
+  top: 5rem;
+  right: 8rem;
+  color: white;
+  background-color: #012a93;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  border-radius: 50%;
+  font-size: 2rem;
+}
+
+.sign-up-third-icon i {
+  color: white;
+}
