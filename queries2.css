@@ -1,4 +1,10 @@
 @media (max-width: 75em) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .img-box {
+    height: 50vh;
+  }
   .container5 {
     height: 100vh;
     display: grid;
@@ -10,6 +16,11 @@
   .sign_up5_form {
     background-color: white;
     padding: 2rem;
+  }
+  .container {
+    grid-template-columns: 1fr;
+    height: 100vh;
+    width: 100%;
   }
 }
 @media (max-width: 31em) {
@@ -34,5 +45,17 @@
   .vision2 {
     grid-column: 1/-1;
     grid-row: 1;
+  }
+  .form-box {
+    width: 90%;
+    margin-top: 2rem;
+  }
+  .container #img-box {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .img-box11 {
+    display: none;
   }
 }
