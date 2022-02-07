@@ -109,7 +109,7 @@ html {
   position: relative;
   background-image: url(../img/Card\ Base-2.png);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100%;
 }
 
 .sign-up-third-two-img {
@@ -154,4 +154,49 @@ html {
 
 .sign-up-third-icon i {
   color: white;
+}
+
+@media (max-width: 36em) {
+  html {
+    font-size: 50%;
+  }
+
+  body {
+    max-width: 57.6rem;
+  }
+
+  .container {
+    max-width: 36rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+  }
+
+  .sing-up-third-one {
+    text-align: center;
+  }
+
+  .sign-up-third-info {
+    display: none;
+  }
+
+  .sign-up-third-one label {
+    display: none;
+  }
+
+  .sing-up-third-one input {
+    display: none;
+  }
+
+  .sing-up-third-one a {
+    display: none;
+  }
+
+  .sing-up-third-one p {
+    display: none;
+  }
+
+  .sing-up-third-two {
+    display: none;
+  }
 }

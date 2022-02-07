@@ -1,47 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>3 - parts</title>
-  <link rel="stylesheet" href="CSS3/style.css">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
-</head>
-<body>
-  <div class="container">
-    <div class="sign-up-third-one">
-      <h4 class="sing-up-third-title">Sign up</h4>
-      <div class="sign-up-third-info">
-        <p class="sign-up-third-info-1">Personal Info</p>
-        <p class="sign-up-third-info-2">Account Details</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign_up6</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="queries2.css" />
+  </head>
+  <body>
+    <div class="sign_up5 container5">
+      <div class="sign_up6_img">
+        <p>minetech</p>
       </div>
-      <label class="label1" for="name">Full Name</label><br>
-      <input type="text" class="input-ten" placeholder="Abraham Zack"><br>
-
-      <label class="label2" for="select">Data of Birth</label><br>
-      <input type="text"  placeholder="* * * * * * * * * * * *"><br>
-
-      <label class="label3" for="google">Phone Number Option</label><br>
-      <input type="text" placeholder="+44 | 20 7234 3456"><br>
-
-      <label class="label101" for="google">Cmdm Card Info</label><br>
-      <input type="text" placeholder="3245 | 1243 | 6785 | 3224"><br>
-
-      <a href="index11.html" class="sign-up-third-btn">SUBMIT</a>
-      <p class="sign-up-third-footer">
-        Alreadiy Have Am Account? <a href="#">Sign In</a>
-      </p>
+      <div class="sign_up5_form">
+        <div class="close">
+          <a href="index9.html"><i class="fas fa-times"></i></a>
+        </div>
+        <form action="">
+          <p class="title5">Sign up</p>
+          <div class="under_title">
+            <a href="#" class="active">Personal Info</a>
+            <a href="#" class="active">Account Detatils</a>
+          </div>
+          <div class="name">
+            <p>Full Name</p>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Please enter your name!"
+            />
+          </div>
+          <div class="name">
+            <p>Gender</p>
+            <select name="gender" id="gender" class="gen">
+              <option value="profession">Economist</option>
+              <option value="profession">Pilot</option>
+            </select>
+          </div>
+          <div class="name">
+            <p>Date of Birth</p>
+            <div class="birth">
+              <select name="date" id="date">
+                <option value="#">05</option>
+                <option value="#">25</option>
+                <option value="#">1965</option>
+              </select>
+              <select name="date" id="date">
+                <option value="#">25</option>
+                <option value="#">25</option>
+                <option value="#">1965</option>
+              </select>
+              <select name="date" id="date">
+                <option value="#">1965</option>
+                <option value="#">25</option>
+                <option value="#">1965</option>
+              </select>
+            </div>
+          </div>
+          <div class="name">
+            <p>How Did You Hear About Us?*</p>
+            <input
+              type="text"
+              name="social"
+              id="social"
+              placeholder="Google,Referral,TV or"
+            />
+          </div>
+          <a href="index11.html" class="continue">
+            <button type="button">Continue</button>
+          </a>
+          <p class="final5">
+            Already Have An Account?
+            <a href="#" style="text-decoration: none">Sign in</a>
+          </p>
+        </form>
+      </div>
     </div>
-    <div class="sign-up-third-two sign-up-third-two-img">
-      <p class="sign-up-third-on-img">minetech</p>
-      <p class="sign-up-third-icon">
-        <a href="index9.html">
-          <i class="fas fa-times"></i>
-        </a>
-      </p>
-    </div>
-  </div>
-</body>
+  </body>
 </html>
