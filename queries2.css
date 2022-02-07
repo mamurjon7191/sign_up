@@ -1,0 +1,38 @@
+@media (max-width: 75em) {
+  .container5 {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .sign_up5_img {
+    height: 50vh;
+  }
+  .sign_up5_form {
+    background-color: white;
+    padding: 2rem;
+  }
+}
+@media (max-width: 31em) {
+  .sign_up5_form {
+    padding: 1rem;
+  }
+  form {
+    width: 90%;
+    height: 50%;
+  }
+  .sign_up5_form {
+    grid-row: 2/-2;
+    grid-column: -2/-1;
+  }
+  .sign_up6_img {
+    height: 50vh;
+  }
+  .vision1 {
+    grid-column: 1/-1;
+    grid-row: 1;
+  }
+  .vision2 {
+    grid-column: 1/-1;
+    grid-row: 1;
+  }
+}
